@@ -258,11 +258,7 @@ iframe{
     .banner{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        top: 100px;
-        left: 100px;
-        width: 100%;
+        padding: 15px;
     }
     .banner h1{
         font-weight: 700;
@@ -302,7 +298,7 @@ iframe{
     .player{
         width: 330px;
         height: 474px;
-        padding: 15px;
+        padding-left: 15px;
         background: #FFFFFF;
         box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
         
@@ -342,6 +338,7 @@ iframe{
         display: flex;
         margin-right: 0;
         flex-direction: column;
+        padding: 15px;
 
     }
     .bottom h1{
