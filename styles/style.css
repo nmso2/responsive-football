@@ -6,6 +6,7 @@ body{
     font-family: 'Poppins', sans-serif;
     background: #FFFFFF;
     margin: 0;
+    box-sizing: border-box
 }
 .container{
     margin-bottom: 70px;
@@ -203,6 +204,57 @@ iframe{
     width: 100%;
 }
 
+/* subscriber form */
+
+.subscriber-form {
+  padding: 0px 400px;
+}
+
+.subscriber-form span{
+    color: rgb(230, 29, 29);
+}
+
+input[type=email], input[type=text] {
+  width: 100%;
+  padding: 15px 0px 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+input[type=text]:focus, input[type=email]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.subscribebtn {
+  background-color: #26538d;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  margin-bottom: 40px;
+  border-radius: 5px;
+}
+
+.subscribebtn:hover {
+  opacity:1;
+}
+
+.subscriber-form a {
+  color: dodgerblue;
+}
+
 /* footer  */
 
 .footer{
@@ -332,7 +384,7 @@ iframe{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        align-content: flex-start;
+        align-content: center;
         width: 100%;
     }
     .highlights{
@@ -355,6 +407,7 @@ iframe{
     iframe{
         margin-bottom: 20px;
         width: 330px;
+        
     }
     .news-photo-frame{
         width: 330px;
@@ -383,6 +436,12 @@ iframe{
     }
     .news-image img{
         width: 100%;
+    }
+
+    /* subscriber form */
+
+    .subscriber-form {
+        padding: 0px 50px;
     }
 
     /* footer */
@@ -539,6 +598,13 @@ iframe{
 .news-image img{
     width: 100%;
 }
+
+
+/* subscriber form */
+
+.subscriber-form {
+    padding: 0px 150px;
+  }
 
 /* footer */
 
