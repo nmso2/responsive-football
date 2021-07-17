@@ -294,7 +294,10 @@ hr {
 @media only screen and (max-width: 688px){
     .container{
         width: 100%;
-    } 
+    }
+    body{
+        overflow-x: hidden;
+    }
 
     nav{
         width: 90%;
@@ -312,6 +315,7 @@ hr {
         display: flex;
         flex-direction: column;
         padding: 15px;
+        
     }
     .banner h1{
         font-weight: 700;
