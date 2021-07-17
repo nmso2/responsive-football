@@ -312,7 +312,7 @@ hr {
         display: flex;
         flex-direction: column;
         padding: 15px;
-        overflow-y: hidden;
+        overflow-x: hidden;
     }
     .banner h1{
         font-weight: 700;
