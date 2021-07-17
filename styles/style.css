@@ -295,10 +295,6 @@ hr {
     .container{
         width: 100%;
     }
-    body{
-        overflow-x: hidden;
-    }
-
     nav{
         width: 90%;
         position:absolute;
